@@ -8,6 +8,7 @@
 #include <openssl/evp.h>
 
 // ─── PROVIDED FUNCTIONS ─────────────────────────
+//this is the hash_to_hex
 
 void hash_to_hex(const ObjectID *id, char *hex_out) {
     for (int i = 0; i < HASH_SIZE; i++) {
