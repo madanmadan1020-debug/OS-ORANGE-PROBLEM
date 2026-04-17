@@ -17,6 +17,7 @@ int head_read(ObjectID *out) {
         fclose(fp);
         return -1;
     }
+    //here we need to write the proper val
 
     fclose(fp);
     return hex_to_hash(hex, out);
