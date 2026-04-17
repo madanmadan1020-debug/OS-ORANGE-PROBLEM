@@ -6,7 +6,7 @@
 #include <time.h>
 
 #define HEAD_FILE ".pes/HEAD"
-
+//we will write head_read
 // ─── HELPER: read HEAD ─────────────────────────
 int head_read(ObjectID *out) {
     FILE *fp = fopen(HEAD_FILE, "r");
