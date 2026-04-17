@@ -39,8 +39,8 @@ int index_remove(Index *index, const char *path);
 
 // Find an entry by path. Returns pointer to the entry, or NULL if not found.
 IndexEntry* index_find(Index *index, const char *path);
-
 // Print the status of the working directory compared to the index and HEAD.
+
 // Output format:
 //   Staged changes:
 //     staged:     <path>
