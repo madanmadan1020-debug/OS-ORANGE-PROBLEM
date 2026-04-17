@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#
+//
 # test_sequence.sh — End-to-end integration test for PES-VCS
 #
 # Run from the repository root after compiling:
