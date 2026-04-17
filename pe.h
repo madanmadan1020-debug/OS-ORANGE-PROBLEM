@@ -15,7 +15,7 @@ typedef enum {
     OBJ_TREE,
     OBJ_COMMIT
 } ObjectType;
-
+// let we define struct
 typedef struct {
     uint8_t hash[HASH_SIZE];
 } ObjectID;
