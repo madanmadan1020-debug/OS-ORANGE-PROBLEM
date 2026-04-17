@@ -81,7 +81,7 @@ void test_integrity(void) {
 
     printf("PASS: integrity check\n");
 }
-
+//here we have the main function
 int main(void) {
     // Clean slate
     int rc __attribute__((unused));
